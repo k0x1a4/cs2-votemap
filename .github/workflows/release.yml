@@ -32,10 +32,10 @@ jobs:
 
       - name: Prepare files
         run: |
-          mkdir package
-          cp -r VoteMap/bin/Release/net8.0/* package/
+          mkdir -p package/${dllName}
+          cp -r VoteMap/bin/Release/net8.0/* package/${dllName}/
           cd package
-          zip -r ${dllName}.zip .
+          zip -r ${dllName}.zip ${dllName}
 
       - name: Create GitHub Release
         run: |
