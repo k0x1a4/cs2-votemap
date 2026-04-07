@@ -7,7 +7,7 @@ jobs:
   build:
     env:
       dllName: VoteMap
-      debugPath: /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/bin/Debug
+      debugPath: /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/${{env.dllName}}/bin/Debug
 
     runs-on: ubuntu-latest
     strategy:
