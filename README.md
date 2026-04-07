@@ -1,3 +1,5 @@
+[![dotnet package](https://github.com/k0x1a4/cs2-votemap/actions/workflows/release.yml/badge.svg)](https://github.com/k0x1a4/cs2-votemap/actions/workflows/release.yml)
+
 # VoteMap - Rock The Vote for CS2
 
 A classic Rock The Vote plugin for Counter-Strike 2 using CounterStrikeSharp. Allows players to vote for map changes mid-game and nominate maps for upcoming votes.
